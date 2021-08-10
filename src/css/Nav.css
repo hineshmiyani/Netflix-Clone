@@ -1,0 +1,32 @@
+.nav {
+  position: fixed;
+  width: 100%; /* when position is fixed that time use "width" otherwise two logo not separated even if you use "justify-content" ;*/
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1;
+
+  /* Animations */
+  transition: all 0.5s ease-in;
+}
+
+.nav_black {
+  background-color: #111;
+}
+
+.nav_logo {
+  position: fixed;
+  cursor: pointer;
+  width: 80px;
+  object-fit: contain;
+  left: 20px;
+}
+
+.nav_avatar {
+  position: fixed;
+  cursor: pointer;
+  width: 30px;
+  object-fit: contain;
+  right: 20px;
+}
