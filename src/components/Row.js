@@ -87,15 +87,22 @@ function Row({ title, fetchUrl, isLargeRow }) {
           // isLargeRow is false and backdrop_path is exist.
           (isLargeRow && movie.poster_path) ||
           (!isLargeRow && movie.backdrop_path) ? (
-            <img
-              key={movie.id}
-              className={`row_poster ${isLargeRow ? "row_posterLarge" : null}`}
-              src={`${baseUrl}${
-                isLargeRow ? movie.poster_path : movie.backdrop_path
-              }`}
-              alt={movie.name || movie.title}
-              onClick={() => handleClick(movie)}
-            ></img>
+            <>
+              <img
+                key={movie.id}
+                className={`row_poster ${
+                  isLargeRow ? "row_posterLarge" : null
+                }`}
+                src={`${baseUrl}${
+                  isLargeRow ? movie.poster_path : movie.backdrop_path
+                }`}
+                alt={movie.name || movie.title}
+                onClick={() => handleClick(movie)}
+              ></img>
+              {/* <div className="playButton">
+                <span class="glyphicons_v2 play invert svg"></span>
+              </div> */}
+            </>
           ) : null
         )}
       </div>

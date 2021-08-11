@@ -21,6 +21,7 @@
   margin-right: 14px;
   transition: transform 400ms;
   border-radius: 3px;
+  position: relative;
 }
 
 .row_poster:hover {
@@ -36,3 +37,23 @@
 .row_posterLarge:hover {
   transform: scale(1.1);
 }
+/* .playButton {
+  width: 300px;
+  height: calc(300px / 1.78);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  z-index: 9999;
+}
+
+.glyphicons_v2.play {
+  background-image: url(https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-175-play-806cb05551791b8dedd7f8d38fd3bd806e2d397fcfeaa00a5cc9129f0819fd07.svg);
+}
+
+.svg.invert {
+  filter: invert(1);
+} */
