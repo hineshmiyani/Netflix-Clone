@@ -12,29 +12,27 @@ body::-webkit-scrollbar {
 }
 
 /*Responsive site code*/
-/* 
 
-.row_container {
+/* .row_container {
   background: black;
-}
+} */
 
-.row {
+/* .row {
   color: white;
   margin-left: 20px;
   position: relative;
   top: 479px;
   background: black;
-}
+} */
 
-
-element.style {
+/* .banner {
   background-size: cover;
   background-image: url(https://image.tmdb.org/t/p/original/a51slt8xs4smZJNys29AfHDCy2R.jpg);
   background-position: center center;
   position: absolute;
-}
+} */
 
-.banner {
+/* .banner {
   color: white;
   object-fit: contain;
   height: 859px;
